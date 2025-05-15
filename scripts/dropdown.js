@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020-2025 HamburgerFrosting
+ * Licensed under the MIT license
+ */
+
 function DropDown() {
       var x = document.getElementById('myDropdown');
       if (x.style.display === 'block') {
