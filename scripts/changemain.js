@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2022-2025 HamburgerFrosting
+ * Licensed under the MIT license
+ */
+
 function changeMain(number) {
     let main = document.getElementById('main');
     if (number == 0) {
