@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020-2025 HamburgerFrosting
+ * Licensed under the MIT license
+ */
+
 function displayResult() {
     var x = document.getElementById("myHeader");
     if (x.innerHTML === "Click the button...and change your life forever...") {
