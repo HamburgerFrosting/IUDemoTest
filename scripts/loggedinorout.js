@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2019-2025 HamburgerFrosting
+ * Licensed under the MIT license
+ */
+
 function loggedInloggedOut() {
 var user=getCookie("uname");
 
