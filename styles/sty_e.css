@@ -1,0 +1,108 @@
+input[type=submit] {
+    background-color: blue;
+    color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+    color: blue;
+}
+
+label {
+  color: orange;
+}
+
+.notifications {
+  opacity: 1;
+  text-decoration: none;
+  padding: 1px 2px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notificationsCount {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  background-color: orange;
+  color: blue;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.usrbtn {
+    background-color: navy;
+    color: orange;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.usrbtn:hover, .usrbtn:focus {
+    background-color: #2980B9;
+}
+
+.button {
+
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.icon-change {
+	background: transparent;
+	color: orange;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+}
+
+button, input, select, textarea {
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+}
+
+.modal a {
+  color: dodgerblue;
+  text-decoration: underline;
+  font-size: 12pt;
+}
+
+footer {
+  background-color: #00f;
+  color: white;
+  padding: 15px;
+}
+
+footer a {
+color:aqua;
+}
+
+footer a:hover {
+color: azure;
+}
