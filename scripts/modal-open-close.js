@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020-2025 HamburgerFrosting
+ * Licensed under the MIT license
+ */
+
 function openSignIn() {
 	document.getElementById("sign-in").style.display="block";
 }
