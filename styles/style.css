@@ -116,28 +116,6 @@ li a:hover {
   background: #f1f1f1;
 }
 
-.topnav .searchform button[type=submit] {
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-}
-
-.topnav .searchform button[type=submit]:hover {
-  background: #0b7dda;
-}
-
-/* Clear floats */
-.topnav .searchform button[type=submit]:after {
-  content: "";
-  clear: both;
-  display: table;
-  }
-
 .topnav-logged-in .searchform {
   float: right;
 }
@@ -183,24 +161,6 @@ button[type=sudmit] {
     cursor: pointer;
     width: 100%;
 }
-
-button[type=sudmit]:hover {
-    opacity: 0.8;
-}
-
-button[type=modal] {
-	 background-color: navy;
-    color: orange;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-button[type=modal]:hover, button[type=modal]:focus {
-	 background-color: #2980B9;
-}
     
 /* Extra styles for the cancel button */
 .cancelbtn {
@@ -228,22 +188,6 @@ img.avatar {
 
 .container {
     padding: 16px;
-}
-
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: red;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
@@ -339,14 +283,11 @@ img.avatar {
     box-sizing: border-box;
     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
     height: 140px;
-	 width: 25%;
+    width: 25%;
 }
 select {
     width: 100%;
-    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
     margin-top: 3px;
     margin-bottom: 2px;
     resize: vertical;
